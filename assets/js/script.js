@@ -106,7 +106,7 @@ $(document).ready(function () {
     // part anime
     $("#playPause").click(function () { 
         $("#playPause").animate({"width":"2rem","height":"2rem"},200)
-        .animate({"width":"3rem","height":"3rem"},200)
+        .animate({"width":"3rem","height":"3rem"},100)
     })
 
 

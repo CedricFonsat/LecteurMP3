@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: black;
 }
 #lecteur{
     width: 400px;
@@ -9,6 +10,8 @@ body{
     border: 1px solid;
     padding: 0px 25px 15px 25px;
     margin-top: 20px;
+    border-radius: 2%;
+    background-color: white;
 }
 #controller{
     display: flex;
