@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+#lecteur{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 0px 25px 15px 25px;
+    margin-top: 20px;
+}
+#controller{
+    display: flex;
+    justify-content: space-between;
+}
+#prev img,#next img{
+    width: 2rem;
+    height: 2rem;
+}
+#prev img:hover,#next img:hover{
+    cursor: pointer;
+}
+#playPause{ 
+    width: 3rem;
+    height: 3rem;
+}
+#playPause:hover{
+    cursor: pointer;
+}
+#cover img{
+    width: 100%;
+    box-shadow: 1px 1px 17px #555;
+    margin: 50px 0px 20px 0px;
+}
+#message{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
